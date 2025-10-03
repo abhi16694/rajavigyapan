@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start -p 3005",
+  "lint": "next lint"
+},
   "dependencies": {
     "dotenv": "^17.2.1",
     "framer-motion": "^12.23.12",
